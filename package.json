@@ -1,0 +1,18 @@
+{
+  "name": "geosrbija-scrapper",
+  "version": "1.0.0",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron src/main/main.js",
+    "build": "electron-builder --publish always",
+    "dist:linux": "electron-builder --linux deb --publish always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "electron": "^35.1.2"
+  }
+}
